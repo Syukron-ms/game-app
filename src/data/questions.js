@@ -1,4 +1,4 @@
-const questions = {
+const questions = { 
   level1: [
     {
       question: "Siapakah pendiri Muhammadiyah?",
@@ -84,4 +84,19 @@ const questions = {
   ]
 };
 
-export default questions;
+// Fungsi untuk mengacak array
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+// Gabungkan semua level menjadi satu array
+let allQuestions = [...questions.level1, ...questions.level2, ...questions.level3];
+
+// Acak seluruh pertanyaan
+allQuestions = shuffleArray(allQuestions);
+
+export default allQuestions;
