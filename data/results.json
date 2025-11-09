@@ -1,0 +1,42 @@
+[
+  {
+    "name": "rafita",
+    "origin": "uad",
+    "phone": "08",
+    "score": 4,
+    "level": 1,
+    "timestamp": "2025-11-09T06:19:50.514Z"
+  },
+  {
+    "name": "rafita",
+    "origin": "uad",
+    "phone": "08",
+    "score": 3,
+    "level": 2,
+    "timestamp": "2025-11-09T06:20:49.246Z"
+  },
+  {
+    "name": "rafita",
+    "origin": "uad",
+    "phone": "08",
+    "score": 4,
+    "level": 3,
+    "timestamp": "2025-11-09T06:21:21.814Z"
+  },
+  {
+    "name": "Fajri",
+    "origin": "Yogya",
+    "phone": "089671901055",
+    "score": 5,
+    "level": 1,
+    "timestamp": "2025-11-09T07:03:49.183Z"
+  },
+  {
+    "name": "Fajri",
+    "origin": "Yogya",
+    "phone": "089671901055",
+    "score": 2,
+    "level": 2,
+    "timestamp": "2025-11-09T07:04:20.774Z"
+  }
+]
