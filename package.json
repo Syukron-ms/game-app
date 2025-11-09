@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
-    "preview": "vite preview",
-    "start-server": "node server.js"
+    "build": "chmod +x node_modules/.bin/vite && npx vite build",
+    "start": "node server.js"
   },
   "dependencies": {
     "body-parser": "^2.2.0",
